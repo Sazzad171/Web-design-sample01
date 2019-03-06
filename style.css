@@ -1,0 +1,227 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline: 0;
+}
+body{
+	font-family: verdana;
+	font-size: 14px;
+	line-height: 18px;
+	color: #000;
+}
+.template{
+	width: 1000px;
+	margin: 0 auto;
+}
+.clear{
+	overflow: hidden;
+}
+.header1{
+	background: #E6F2F3;
+	height: 60px;
+	border-bottom: 1px solid #000;
+}
+.header2 h1{
+	float: left;
+	padding: 20px 15px 15px 15px;
+}
+.header2 h2{
+	float: left;
+    margin-top: 10px;
+    border-left: 1px solid #000;
+    padding: 10px;
+    font-weight: normal;
+    font-size: 15px;
+}
+.header3{
+	float: right;
+	margin-right: 20px;
+}
+.header3 input[type="text"]{
+	margin-top: 20px;
+    height: 20px;
+    width: 200px;
+}
+.header3 input[type="submit"]{
+	margin-top: 20px;
+    height: 23px;
+    width: 35px;
+    cursor: pointer;
+}
+.nav1{
+	background: #E6F2F3;
+	height: 38px;
+}
+.nav2{
+	float: left;
+}
+.nav2 li{
+	float: left;
+    display: block;
+    margin: 5px 10px;
+    border-right: 1px solid;
+    padding: 5px 15px 3px 4px;
+}
+.nav2 li:nth-last-child(1){
+	border-right: 0px solid;
+}
+.nav3{
+	float: right;
+    padding-right: 15px;
+    font-size: 13px;
+}
+.slogan1{
+	color: #fff;
+	height: 400px;
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#008db1+0,2aa6c1+100 */
+background: rgb(0,141,177); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(0,141,177,1) 0%, rgba(42,166,193,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(0,141,177,1) 0%,rgba(42,166,193,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,141,177,1) 0%,rgba(42,166,193,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008db1', endColorstr='#2aa6c1',GradientType=0 ); /* IE6-9 */
+}
+.slogan2{
+	float: left;
+	width: 550px;
+	margin-left: 15px;
+}
+.slogan2 h1{
+	border-bottom: 1px solid #fff;
+    padding: 50px 0 15px;
+    font-weight: normal;
+}
+.slogan5{
+	    padding: 15px 0 50px;
+}
+.slogan4{
+	float: left;
+    background: #DFDEDF;
+    margin-right: 150px;
+    padding: 8px 19px;
+    color: #000;
+    cursor: pointer;
+}
+.slogan3{
+	float: right;
+	width: 400px;
+}
+.slogan3 img{
+	width: 360px;
+    height: 300px;
+    margin: 50px 0px 0 10px;
+}
+.fcontent1{
+	background: #E8F2F3;
+	padding-bottom: 40px;
+}
+.fcontent2{
+	float: left;
+	width: 22%;
+	margin: 0 0 0 15px;
+}
+.fcontent2 h2{
+	border: 1px solid #3E3D9B;
+    padding: 10px 10px;
+    text-align: center;
+    font-weight: normal;
+    color: #008DAC;
+    margin-top: 30px;
+}
+.fcontent2 h3{
+	border-bottom: 2px solid #000;
+    margin: 5px;
+    padding-top: 15px;
+}
+.fcontent2 p{
+	margin: 5px;
+}
+.fcontent3{
+	float: right;
+	font-weight: bold;
+	padding: 0 10px 10px 0;
+}
+.lcontent1{
+	background: #E6F2F3;
+}
+.lcontent2{
+	float: left;
+	width: 48%;
+}
+.lcontent2 div{
+	margin-left: 15px;
+	float: left;
+}
+.lcontent2 h2,.lcontent3 h2{
+	margin-left: 15px;
+	border-bottom: 1px solid #000;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	font-weight: normal;
+}
+.lcontent2 img{
+	height: 100px;
+	width: 100px;
+	padding: 3px;
+	border: 1px solid #8E8CD8;
+	float: left;
+	margin: 0 15px 15px 0;
+}
+.lcontent3{
+	float: right;
+	width: 48%;
+	margin-right: 20px;
+}
+.lcontent3 img{
+	height: 150px;
+	width: 150px;
+	padding: 3px;
+	border: 1px solid #8E8CD8;
+	margin: 0 15px;
+	float: left;
+}
+.lcontent3 p{
+	padding-left: 16px;
+}
+.lcontent4 p{
+	float: left;
+}
+.lcontent4 h3{
+	float: right;
+    margin-top: 25px;
+    font-size: 13px;
+}
+.footertop{
+	background: #2D2C2D;
+	padding-bottom: 10px;
+}
+.footertop div{
+	width: 31%;
+	float: left;
+	color: #E6F2F3;
+}
+.footertop1{
+	margin-left: 15px;
+	font-weight: normal;
+}
+.footertop1 h2{
+	margin: 30px 8px 25px 0;
+    font-weight: normal;
+    padding: 0 0 4px 0;
+    border-bottom: 1px solid;
+    margin-right: 8px;
+}
+.fotter{
+	background: #201F22;
+	color: #E6F2F3;
+}
+.f1{
+	float: left;
+	padding: 10px 0 10px 5px;
+}
+.f2{
+	float: right;
+	padding: 10px 5px 10px 0;
+}
+
+
